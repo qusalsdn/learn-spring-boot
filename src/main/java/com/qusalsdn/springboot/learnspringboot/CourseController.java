@@ -10,6 +10,6 @@ import java.util.List;
 public class CourseController {
     @RequestMapping("/courses") // URL을 매핑해준다.
     public List<Course> retrieveAllCourses() {
-        return Arrays.asList(new Course(1, "Learn AWS", "qusalsdn"), new Course(1, "Learn AWS", "qusalsdn"), new Course(1, "Learn AWS", "qusalsdn"));
+        return Arrays.asList(new Course(1, "Learn AWS", "qusalsdn"), new Course(2, "Learn DevOps", "qusalsdn"), new Course(3, "Learn Azure", "qusalsdn"), new Course(4, "Learn GCP", "qusalsdn"));
     }
 }
